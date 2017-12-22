@@ -16,7 +16,9 @@ namespace CsRemoveComment
         private readonly static List<String> _exclusion = new List<String>
                                                    {
                                                        "bin",
-                                                       "obj"
+                                                       "obj",
+                                                       ".git",
+                                                       ".vs"
                                                    };
         static void Main(string[] args)
         {
